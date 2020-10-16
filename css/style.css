@@ -1,0 +1,147 @@
+/* settings */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html,body{
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+h1,h2,h3{
+    padding-bottom:20px;
+}
+/* this serves as the container of menu */
+.container{
+    margin:auto;
+    max-width:1100px;
+    overflow:auto;
+    padding:0 20px;
+}
+/* .educational background */
+img{
+    width:250px;
+    height:250px;
+    display: block;
+}
+.p-left{
+    width:50%;
+    float:left;
+    padding-top: 20px;
+    padding-left: 40px;
+    margin-right: 250px;
+}
+.p-right{
+    width:50%;
+    float:right;
+    padding-top:20px;
+}
+.img-right{
+    float:left;
+    padding-top:20px;
+}
+
+.img-left{
+    float:right;
+    padding-top:20px;
+}
+
+    
+
+/* design for menu */
+#navbar{
+    background:rgba(122, 103, 67, 0.801);
+    color:rgba(173, 119, 19, 0.966);
+    overflow: auto;
+}
+#navbar a{
+    color:#fff;
+}
+#navbar h1{
+    float:left;
+    padding-top:20px;
+}
+#navbar ul{
+    list-style: none ;
+    float:right;
+}
+#navbar ul li{
+    float:left;
+}
+#navbar ul li a{
+    display:block;
+    padding:20px;
+}
+/* design for myname and motto */
+.my-name{
+    background:url(../images/sunset.jpg)no-repeat center center/cover;
+    height:600px;
+}
+.content{
+    color:#fff;
+    text-align:center;
+    padding-top:170px;
+}
+a.button{
+    display:inline-block;
+    border:2px solid white;
+    background-color:#963333;
+    color:#fff;
+    border-radius: 10px;
+    padding:5px 12px;
+    margin-top:10px;
+
+}
+
+/* educational background */
+.edu{
+    margin-bottom:30px;
+}
+.edu-dashed{
+    margin-top:20px;
+    border-top:2px dashed #000;
+}
+.edu h1{
+    padding-top:30px;
+    text-align: center;
+}
+/* services */
+.triple{
+    float:left;
+    text-align: center;
+}
+.left{
+    float: left;
+}
+.middle{
+    float: left;
+    margin-left: 135px;
+ 
+}
+.right{
+    float: right;
+}
+.clr{
+    clear: both;
+}
+.para{
+    display: inline-block;
+}
+.pa-left{
+    float: left;
+    margin-left: 70px;
+   
+}
+.pa-middle{
+    float: left;
+  
+}
+.pa-right{
+    float: left;
+ 
+}
+
